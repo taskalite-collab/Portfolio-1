@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+}
+.logo {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 50px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 50px;
+    gap: 40px;
+}
+.nav-content {
+    transition: all 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.nav-content.active {
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #1576D6;
+}
+.nav-content:hover {
+    transform: scale(1.1); 
+    color: #0000008f;
+}
+header {
+    height: 704px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.details-box {
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.text-box {
+    width: 557px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Job-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h1 {
+    font-size: 80px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    line-height: 90px;
+}
+.man-image {
+    width: 500px;
+    height: 500px;
+}
+
+.menu-btn {
+    display: none;
+}
+/* services style */
+header {
+    .skils-box {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        height: 328px;
+        justify-content: space-between;
+        /* gap: 125px; */
+
+        & .skils-card {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            & img {
+                width: 130px;
+                height: 130px;
+            }
+
+            & .main-title {
+                text-align: center;
+                font-size: 27px;
+                line-height: 42px;
+                font-family: "Epilogue", sans-serif;
+                font-weight: 600;
+            }
+
+            & .skill-details {
+                text-align: center;
+                font-size: 17px;
+                line-height: 27px;
+                font-family: "Epilogue", sans-serif;
+                font-weight: 400;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+.project-box {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    & .card-box {
+        width: 1085px;
+        height: 894px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        & .strip1{
+            width: 1080px;
+            height: 407px;
+            display: flex;
+            gap: 67.5px;
+            & .project-card {
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                width: 315px;
+                height: 407px;
+                background-color: #ffffff;
+                gap: 25px;
+                    & img {
+                        width: 315px;
+                        height: 315px;
+                    }
+                        & .project-text {
+                            gap: 10px;
+                            & .project-title {
+                                font-size: 20px;
+                                line-height: 30px;
+                                font-family: "Epilogue", sans-serif;
+                                font-optical-sizing: auto;
+                                font-weight: 600;
+                                font-style: normal;
+                            }
+                                & .project-details {
+                                    font-size: 17px;
+                                    line-height: 27px;
+                                    font-family: "Epilogue", sans-serif;
+                                    font-optical-sizing: auto;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                }
+                            }
+            }
+            
+        }
+        & .strip2 {
+            width: 1080px;
+            height: 407px;
+            display: flex;
+            gap: 67.5px;
+            & .project-card {
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                width: 315px;
+                height: 407px;
+                background-color: #ffffff;
+                gap: 25px;
+                    & img {
+                        width: 315px;
+                        height: 315px;
+                    }
+                        & .project-text {
+                            gap: 10px;
+                            & .project-title {
+                                font-size: 20px;
+                                line-height: 30px;
+                                font-family: "Epilogue", sans-serif;
+                                font-optical-sizing: auto;
+                                font-weight: 600;
+                                font-style: normal;
+                            }
+                                & .project-details {
+                                    font-size: 17px;
+                                    line-height: 27px;
+                                    font-family: "Epilogue", sans-serif;
+                                    font-optical-sizing: auto;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                }
+                            }
+            }
+        }
+    }
+}
+
+.clients-box {
+    width: 100%;
+    height: 704px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        & .card-box {
+            width: 1080px;
+            height: 317px;
+            display: flex;
+            gap: 67.5px;
+                & .client-card {
+                    width: 315px;
+                    height: 317px;
+                    display: flex;
+                    border: 1.5px solid #1576D6;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #ffffff;
+                        & .card-details {
+                            width: 263px;
+                            height: 257px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 80px;
+                                & .details {
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    font-family: "Epilogue", sans-serif;
+                                    font-optical-sizing: auto;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                }
+                                        & .rate-box {
+                                            width: 263px;
+                                            height: 57px;
+                                            position: relative;
+                                                & .client-image {
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    position: absolute;
+                                                    left: 0px;
+                                                    top: 0px;
+                                                }
+                                                & .rate-stars {
+                                                    width: 120px;
+                                                    height: 20px;
+                                                    position: absolute;
+                                                    left: 70px;
+                                                    top: 0px;
+                                                    right: 73px;
+                                                }
+                                                & .client-name {
+                                                    font-size: 17px;
+                                                    line-height: 27px;
+                                                    font-family: "Epilogue", sans-serif;
+                                                    font-optical-sizing: auto;
+                                                    font-weight: 400;
+                                                    font-style: normal;
+                                                    position: absolute;
+                                                    bottom: 0px;
+                                                    right: 70px;
+                                                }
+                                        }
+                                
+                        }
+                }
+        }
+
+}
+
+.contact-container {
+    width: 100%;
+    height: 704px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .contact-box {
+        width: 1080px;
+        height: 495px;
+        display: flex;
+        justify-content: space-between;
+            & .info-box {
+                width: 360px;
+                height: 286px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                    & .title {
+                        font-size: 32px;
+                        line-height: 42px;
+                        font-family: "Epilogue", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 600;
+                        font-style: normal;
+                    }
+                    & .details {
+                        font-size: 17px;
+                        line-height: 27px;
+                        font-family: "Epilogue", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+                    & img {
+                      width: 232px;
+                      height: 36px;  
+                    }
+            }
+        & .text-box form {
+            width: 530px;
+            height: 495px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+                & .name {
+                    width: 530px;
+                    height: 69px;
+                    background-color: #F3F3F3;
+                    border: 0px;
+                    padding-left: 20px;
+                }
+                & .email {
+                    width: 530px;
+                    height: 69px;
+                    background-color: #F3F3F3;
+                    border: 0px;
+                    padding-left: 20px;
+                }
+                & .message {
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    width: 530px;
+                    height: 231px;
+                    background-color: #F3F3F3;
+                    border: 0px;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                & .submit {
+                    width: 199px;
+                    height: 66px;
+                    background-color: #2D2D2D;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 17px;
+                    line-height: 27px;
+                    font-family: "Epilogue", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                & .name::placeholder {
+                    font-size: 17px;
+                    line-height: 27px;
+                    font-family: "Epilogue", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                & .email::placeholder {
+                    font-size: 17px;
+                    line-height: 27px;
+                    font-family: "Epilogue", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                & .message::placeholder {
+                    font-size: 17px;
+                    line-height: 27px;
+                    font-family: "Epilogue", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+
+        }    
+    }
+}
+
+@media (max-width: 768px) {
+
+
+
+    .nav-menu{
+    display: none;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    right: -150px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width:200px;
+    padding:20px;
+    gap:20px;
+    }
+
+    .logo {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+    header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.details-box {
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.man-image {
+    width: 100%;
+    height: 100%;
+}
+
+.Job-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h1 {
+    font-size: 44px;
+    line-height: 100%;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+    .menu-btn {
+    display: block;
+    width: 25px;
+    height: 23px;
+    margin-right: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+
+    #menu-toggle {
+    display: none;
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    margin-right: 30px;
+    right: 20px;
+    }
+
+#menu-toggle:checked ~ .nav-menu{
+    display:flex;
+}
+
+#menu-toggle:checked ~ .menu-btn {
+    transform: rotate(45deg);
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        & .skils-box{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 80px;
+            padding: 11% 6% 11% 6%;
+                & .skils-card {
+            width: 67%;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            & img {
+                width: 40%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.project-box {
+    padding: 11% 8% 11% 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        &   .card-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        & .strip1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                & .project-card {
+                    width: 85%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 0px;
+                        & img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                }
+            }
+        & .strip2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                & .project-card {
+                    width: 85%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 0px;
+                        & img {
+                            width: 100%;
+                            height: 100%;
+                        }
+            }
+            
+        }
+    }
+}
+
+.clients-box {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11% 8% 11% 8%;
+        &   .card-box {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                &   .client-card {
+                    width: 100%;
+                    padding: 8%;
+                        &   .card-details {
+                            width: 100%;
+                            height: 100%;
+                                &   .details {
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    font-weight: 600;
+                                }
+    
+                            }
+                        }
+                }
+        }
+
+.contact-container {
+    height: 100%;
+    padding: 0 8% 11% 8%;
+        &   .contact-box {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+                &   .info-box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                &   .text-box form {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        }
+}
+}
+
+
